@@ -1,0 +1,375 @@
+/* Importing fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+* {
+  box-sizing: border-box;
+  font-family: Libre+Franklin;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(245, 247, 250);
+} 
+
+body_table {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(16, 9, 48, 0.74);
+}
+
+/* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 130px;
+  overflow: auto;
+}
+
+/* Container */
+.container_0 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #031525;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container_1 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 50px;
+  color: #15a5f8;
+  border-radius: 20px;
+}
+
+
+.container_2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 200px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container .col-md-12 {
+  margin-top: 50px;
+  margin-right: 10px;
+  background-color: white;
+  border: white;
+  text-align: center;
+
+}
+
+/* .container-fluid {
+  height: 800px;
+  max-width: 800 px;
+} */
+
+.col-md-2 {
+  margin-top: 150px;
+  margin-left: 20px;
+  word-wrap: break-word;  
+  box-sizing: border-box;
+}
+
+.col-md-3 {
+  border-style: solid;
+  border-color: #031525;
+  background-color: #031525;
+  border-radius: 10px;
+  border-width: 10px;
+  word-wrap: break-word;  
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.col-md-12 {
+  margin-top: 50px;
+  border-style: solid;
+  border-color: #031525;
+  background-color: #031525;
+  border-radius: 10px;
+  border-width: 10px;
+  word-wrap: break-word;  
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+
+/* Navigation bar styles */
+
+.navbar {
+  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color:rgb(22, 108, 238);
+  height: 80px;
+  font-weight: 700;
+  max-height: 100px;
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: 800;
+  color: #336bb4;
+}
+
+.nav-link {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+/* Adding other styles to the filters and rows */
+
+
+label {
+  font-size: 16px;
+  font-family: Libre+Franklin;
+  color: #0b1218;
+  
+}
+
+.filters {
+  margin-top: 10px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  color: #141414;
+  outline: none;
+}
+
+
+.row_index {
+  margin-top: 50px;
+
+}
+
+.row {
+  margin-top: 100px;
+  margin-left: 100 px;
+}
+
+ul {
+  color:#0e4e8f;
+  font-size: 28px;
+  font-family: Libre+Franklin;
+  margin-left: 100px;
+  font-weight: 500;
+}
+
+/* Font styles */
+p {
+  color: #0b1218;
+  font-family: Libre+Franklin;
+  font-weight: 500;
+  font-size: 28px;  
+}
+
+p2 {
+  font-family: Libre+Franklin;
+  font-weight: 500;
+  font-size: 28px;
+  margin-left: 5px;
+  word-wrap: break-word;
+  color: rgb(22, 100, 218);
+   
+}
+
+p3 {
+  font-family: Libre+Franklin;
+  font-weight: 800;
+  font-size: 50px;
+  color: rgb(22, 108, 238);
+  text-align: left;
+}
+
+p4 {
+  color: #f2f5f8;
+  font-size: 30px;
+  font-weight: 600;
+  word-wrap: break-word;
+  text-indent: 10px;
+}
+
+p5 {
+  color: #0e4e8f;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: Libre+Franklin;
+}
+
+p6 {
+  color: #f2f5f8;
+  font-size: 30px;
+  font-weight: 600;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+p7 {
+  color: #142230;
+  font-size: 80px;
+  font-weight: 900;
+  font-family: Libre+Franklin;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 120px;
+}
+
+p8 {
+  color: #0b2136;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Libre+Franklin;
+}
+
+p9 {
+  color: #0b2136;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: Libre+Franklin;
+}
+
+h1 {
+  margin-top: 100px;
+  font-family: Libre+Franklin;
+  font-weight: 800;
+  font-size: 70px;
+  color: rgb(22, 108, 238);
+  text-align: left;
+}
+
+h2 {
+  font-family: Libre+Franklin;
+  font-weight: 800;
+  margin-left: 10px;
+  color: rgb(22, 108, 238);
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Libre+Franklin;
+  font-weight: 600;
+}
+
+/* Buttons and Links */
+
+.btn1{
+  background-color:rgb(22, 108, 238);
+  color: whitesmoke;
+  size: 24px;
+  font-size: 26px;
+  font-family: Libre+Franklin;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.btn2{
+  background-color:rgb(69, 74, 82);
+  color: whitesmoke;
+  size: 32px;
+  font-size: 26px;
+  font-family: Libre+Franklin;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.col-md-8 a {
+  color: #0e308f;
+  font-size: 28px;
+  font-family: Libre+Franklin;
+}
+
+/*Tableau aesthetics*/
+.tableauPlaceholder {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+/* input placeholder color changes */
+.form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #8e979f;
+}
+
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #8e979f;
+}
+
+.form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #8e979f;
+}
+
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #8e979f;
+}
+
+.panel-heading {
+  font-size: 19px;
+  font-weight: 900;
+
+}
+
+/* media queries which will only be activated at specific screen sizes */
+@media (max-width: 800px) {
+  #table-area td {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-brand {
+    width: 100%;
+    text-align: right;
+  }
+
+  .nav-link {
+    text-align: right;
+  }
+}
+
+#issMap,
+  body,
+  html {
+    height: 100%;
+} 
