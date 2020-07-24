@@ -30,4 +30,4 @@ Please take the time to go through this website and its correspondent AWS deploy
 
 ![gender_prediction.png](images/gender_prediction.png)
 
-![walks_prediction.png](images/walks_prediction)
+![walks_prediction.png](images/walks_prediction.png)
