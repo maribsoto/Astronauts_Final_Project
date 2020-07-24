@@ -24,7 +24,7 @@ We used 9 visualization technologies to carry out our project:
 Please take the time to go through this website and its correspondent AWS deployment:
 
 ## Deployment link in AWS
-* http://project3-env-1.eba-2p6vdmpb.us-east-2.elasticbeanstalk.com/nasa.html
+* http://project3-env-1.eba-2p6vdmpb.us-east-2.elasticbeanstalk.com/
 
 ## Here you can check our Machine Learning results:
 
