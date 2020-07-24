@@ -28,6 +28,13 @@ Please take the time to go through this website and its correspondent AWS deploy
 
 ## Here you can check our Machine Learning results:
 
+
 ![gender_prediction.png](images/gender_prediction.png)
 
+
 ![walks_prediction.png](images/walks_prediction.png)
+
+## Where is the ISS?
+We additionally set up the life location of the ISS!
+
+![iss.png](images/iss.png)
